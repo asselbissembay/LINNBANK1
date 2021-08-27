@@ -2,18 +2,14 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import pages.US_13Page;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class US_13StepDefinitions {
     US_13Page us_13Page= new US_13Page();
+
 
 //TC01
     @Given("Kullanici gmibank anasayfaya gider")
@@ -87,7 +83,7 @@ public class US_13StepDefinitions {
     @And("kullanici Create Date girmeli")
     public void kullaniciCreateDateGirmeli() {
         us_13Page.createDateTextBox.click();
-        us_13Page.createDateTextBox.sendKeys("20-05-2020 00:0");
+        us_13Page.createDateTextBox.sendKeys("20-05-2020 00:00");
 
 
     }

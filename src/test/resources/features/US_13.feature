@@ -20,6 +20,7 @@
       And kullanici Closed Date girmelidir
       And kullanici Employee tıklamalıdr
       And kullanici Save butonuna tıklamalıdır
+      And  islemin yapıldıgını dogrular
       And sayfa kapanır
 
     @SAVİNG&SUESPENDED
@@ -32,6 +33,7 @@
       And kullanici Closed Date girmelidir
       And kullanici Employee tıklamalıdr
       And kullanici Save butonuna tıklamalıdır
+      And  islemin yapıldıgını dogrular
       And sayfa kapanır
 
 
@@ -45,6 +47,7 @@
       And kullanici Closed Date girmelidir
       And kullanici Employee tıklamalıdr
       And kullanici Save butonuna tıklamalıdır
+      And  islemin yapıldıgını dogrular
       And sayfa kapanır
 
     @INVESTING&CLOSED
@@ -57,4 +60,5 @@
       And kullanici Closed Date girmelidir
       And kullanici Employee tıklamalıdr
       And kullanici Save butonuna tıklamalıdır
+      And  islemin yapıldıgını dogrular
       And sayfa kapanır
